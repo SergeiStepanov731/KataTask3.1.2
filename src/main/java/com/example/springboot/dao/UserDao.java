@@ -1,11 +1,12 @@
 package com.example.springboot.dao;
 
 import com.example.springboot.entity.User;
+
 import java.util.List;
 
 public interface UserDao {
-    void update(int id, User user);
 
+    void update(int id, User user);
 
     List<User> getAllUsers();
 
